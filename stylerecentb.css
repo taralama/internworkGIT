@@ -1,9 +1,13 @@
 .recentblogs{
     margin-top: 10vh;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     padding: 10vh;
     /* border: 1px solid; */
+}
+
+.recentblogs h1{
+    font-size: 10vh;padding: 5vh;
 }
 
 .recentblogdiv1{
