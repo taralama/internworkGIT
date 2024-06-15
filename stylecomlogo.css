@@ -100,7 +100,7 @@
     margin-top: 12vh;
     /* border: 1px solid; */
    display: grid;
-   height: 60vh;
+   height: 80vh;
    grid-template-columns: 30vw 30vw;
    justify-content: space-around;
    overflow: hidden;
@@ -110,6 +110,7 @@
 .SectionContent1 .SCleft{
     background-image: url('./images/sectioncontent1/background.png');
     background-size: cover;
+ 
 }
 
 
