@@ -197,7 +197,6 @@ color: #505887;
     width: 40vw;
     background-image: url('/images/sectioncontent2/Image.png');
     background-size:80vh;
-
     right: 15vw;
    
 }
@@ -231,14 +230,7 @@ color: #505887;
     margin-top: -4vh;
     
  }
-
-
-
-
-
-
-
- .features{
+.features{
     height: 100vh;
     background-size: cover;
     background-image: url('./images/features/featurebg.png');
@@ -281,9 +273,7 @@ color: #505887;
 .featuresdiv3 {
     display: grid;
     justify-content: space-between;
-   
     /* border: 1px solid; */
-  
     row-gap: 3vh
     
 }
@@ -326,8 +316,6 @@ color: #505887;
 }
 
 .testimodiv{
-
-   
     margin-top: 10vh;
     display: grid;
     grid-template-columns: 40vw 40vw;
