@@ -51,7 +51,7 @@ grid-template-columns: 20vw 20vw 20vw;
 
 .Faq{
     margin-top: 10vh;
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 150vh;
     width: 100%;
     padding: 10vh;
@@ -119,4 +119,90 @@ grid-template-columns: 20vw 20vw 20vw;
 }
 
 
+/* cta */
 
+.cta{
+    /* border: 1px solid ; */
+    height: 150vh;
+    padding: 10vh;
+}
+
+.getStarted{
+    padding: 10vh;
+    height: 50vh;
+    background-color: #3734A9;
+    color: white;
+    border-radius: 1rem ;
+    display: block;
+    justify-content: center;
+
+    text-align: center;
+    align-items: center;
+    
+}
+
+.getStarted h1{
+    font-size: 8vh;
+}
+
+.getStarted button{
+    background-color: #FF7F5C;
+    border-radius:1rem ;
+    color: white;
+    border: none;
+    padding: 3vh ;
+    width: 15vw;
+}
+
+.cta #img1{
+    position: relative;
+    top: -70vh;
+    left: 70vw;
+}
+.cta #img2{
+    position: relative;
+    top: -33vh;
+    left: 65vw;
+}
+.cta #img3{
+    position: relative;
+    top: -35vh;
+    left: 1vw;
+}
+.cta #img4{
+    position: relative;
+    top: -38vh;
+    left: -18vw;
+}
+
+
+.footer{margin-top: -10vh;
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 25vw;
+    gap: .5vw;
+
+}
+
+.footer li{
+    margin-top: 1vh;
+}
+
+
+.footer .footerinput input{
+    border: none;
+    background-color: #EEEEFF;
+    padding: 2vh;
+}
+.footer .footerinput button{
+    border: none;
+    width: 10vw;
+    color: white;
+    background-color: #3734A9;
+    padding: 2vh;
+}
+
+.copyright  h4{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+}
