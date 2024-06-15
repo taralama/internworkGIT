@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body{
+    background-color: #FAFBFF;
+
+}
+.aboutField{
+    height: 100vh;
+    background-image: url('./images/Rectangle158.png');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Manrope';font-size: 15px;
+   
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 1rem;
+   
+}
+
+
+header{
+    position:relative;
+    padding: 1rem 5rem 1rem 5rem;
+    
+
+}
+
+.navbar{
+    
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    justify-content:space-between;
+}
+
+.navbar .logo a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .links{
+    display: flex;
+    gap:2rem;
+}
+
+.navbar button {
+    height: 6vh;
+    width: 8vw;
+    background-color: #4F46BA;
+
+    color: white;
+    border: none;font-family: 'Manrope';font-size: 15px;
+}
+
+.logIndiv button{
+    margin-left: 1rem;
+}
+
+.Content{
+    /* border: 1px solid; */
+    height: 55vh;
+    width: 33.646vw;
+    position: relative;
+    top: 20vh;
+    left: 6.302vw;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+.Content h1{
+    font-size: 6vh;
+    text-align: left;
+}
+
+.Content p{
+    margin-top: 3vh;
+    font-size: 2vh;
+}
+
+.Content .contentBtns{
+   margin-top: 7vh;
+   margin-left: 1vw;
+   display: flex;
+   align-items: center;
+   
+}
+
+.Content button{
+    height: 7vh;
+    width: 8vw;
+    border: none;
+    background: #3734A9;
+    color: white;
+    border-radius: 4rem;
+
+}
+
+.contentBtns .iconBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 3.5vw;
+    border-radius: 4rem;
+    background-color:#22D497 ;
+    margin-left: 3vw;
+}
+
+.contentBtns label{
+    margin-left: 3px;
+    font-size: x-small;
+    color: #3734A9;
+
+}
+
+
+.contentCheckbox{
+    color: blue;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.contentCheckbox label{
+    margin-right: 3rem;
+    margin-left: .5rem;
+    font-size: x-small;
+    color: #3734A9;
+}
+
+.handImgContainer{
+    /* border: 1px solid; */
+    height: 80vh;
+    width: 30vw;
+    position: absolute;
+    right: 23vw;
+    top: 20vh;
+    display: flex;
+    overflow: hidden;
+    
+
+}
+
+
+
+.handImgContainer #handRight{
+    position: relative;
+    right: 17vw;
+    
+}
+
+.handImgContainer #handLeft{
+    height: 70vh;
+    position: relative;
+    top: 20vh;
+    left: 3vw;
+   
+}
+
+.handImgContainer #roundImg{
+    position: absolute;
+    height: 50vh;
+    bottom:  40vh;
+    left: 2vw;
+
+}
+.handImgContainer #circleImg{
+    position: absolute;
+    height: 15vh;
+    top:  7vh;
+    left: 10vw;
+
+}
+.handImgContainer #incircleImg{
+    position: absolute;
+    height: 10vh;
+    top:  9vh;
+    left: 11vw;
+
+}
+
+.aboutField #dotsleft{
+
+    position: absolute;
+}
+
+
+#bluerightCont {
+    position: absolute;
+    
+    right: 0;
+    bottom: 0;
+    height: 30vh;
+    width: 30vw;
+    /* border: 1px solid ; */
+    overflow: hidden;
+}
+
+.aboutField #blueright{
+    position: absolute;
+    height: 40vh;
+    top: 6vh;
+    right: 0;
+    bottom: -40vh; /* Adjust the negative value to hide the overflow */
+}
+   
+.aboutField #dotsright{
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
