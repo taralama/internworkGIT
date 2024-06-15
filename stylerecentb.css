@@ -139,7 +139,7 @@ grid-template-columns: 20vw 20vw 20vw;
     border-radius: 1rem ;
     display: block;
     justify-content: center;
-
+    margin-bottom: 5vh;
     text-align: center;
     align-items: center;
     
