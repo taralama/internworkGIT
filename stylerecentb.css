@@ -132,14 +132,13 @@ grid-template-columns: 20vw 20vw 20vw;
 }
 
 .getStarted{
-    padding: 10vh;
+    padding: 5vh 10vh 10vh 10vh;
     height: 50vh;
     background-color: #3734A9;
     color: white;
     border-radius: 1rem ;
     display: block;
     justify-content: center;
-    margin-bottom: 5vh;
     text-align: center;
     align-items: center;
     
