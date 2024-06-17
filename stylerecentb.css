@@ -109,7 +109,7 @@ grid-template-columns: 20vw 20vw 20vw;
     align-items: center;
 }
 
-.faq1-2 h4,img,p,button{
+.faq1-2 h4,img,p,.faqbtn{
   margin-top: 5vh;
 }
 
@@ -149,7 +149,8 @@ grid-template-columns: 20vw 20vw 20vw;
     font-size: 8vh;
 }
 
-.getStarted button{
+.getStarted .ctabtn{
+    margin-top: 2vh;
     background-color: #FF7F5C;
     border-radius:1rem ;
     color: white;
@@ -160,23 +161,23 @@ grid-template-columns: 20vw 20vw 20vw;
 
 .cta #img1{
     position: relative;
-    top: -70vh;
+    bottom:  70vh;
     left: 70vw;
 }
 .cta #img2{
     position: relative;
-    top: -33vh;
+    bottom: 38vh;
     left: 65vw;
 }
 .cta #img3{
     position: relative;
-    top: -35vh;
+    bottom: 39vh;
     left: 1vw;
 }
 .cta #img4{
     position: relative;
-    top: -38vh;
-    left: -18vw;
+    bottom: 45vh;
+    right: 18vw;
 }
 
 
