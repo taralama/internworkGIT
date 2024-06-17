@@ -181,7 +181,7 @@ grid-template-columns: 20vw 20vw 20vw;
 }
 
 
-.footer{margin-top: -10vh;
+.footer{
     display: grid;
     grid-template-columns: 20vw 20vw 20vw 25vw;
     gap: .5vw;
