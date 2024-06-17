@@ -66,6 +66,13 @@ header{
     color: white;
     border: none;font-family: 'Manrope';font-size: 15px;
 }
+.navbar button:hover{
+    background-color: #070053;
+
+    color: white;
+    transition: .6s;
+    border: none;font-family: 'Manrope';font-size: 15px;
+}
 
 .logIndiv button{
     margin-left: 1rem;
@@ -147,6 +154,19 @@ header{
     color: #3734A9;
 }
 
+@keyframes handshow{
+    from{
+        height: 0vh;
+    }
+
+    to{
+        bottom: 100vh;
+    }
+}
+
+
+
+
 .handImgContainer{
     /* border: 1px solid; */
     height: 80vh;
@@ -156,15 +176,19 @@ header{
     top: 20vh;
     display: flex;
     overflow: hidden;
+    animation: handshow 4s;
     
 
 }
 
 
 
+
+
 .handImgContainer #handRight{
     position: relative;
     right: 17vw;
+    
     
 }
 
@@ -173,6 +197,7 @@ header{
     position: relative;
     top: 20vh;
     left: 3vw;
+    animation: handshow 4s;
    
 }
 
@@ -186,15 +211,16 @@ header{
 .handImgContainer #circleImg{
     position: absolute;
     height: 15vh;
-    top:  7vh;
+    top:  3vh;
     left: 10vw;
 
 }
 .handImgContainer #incircleImg{
     position: absolute;
     height: 10vh;
-    top:  9vh;
+    top:  5vh;
     left: 11vw;
+    animation: handshow 3s;
 
 }
 
